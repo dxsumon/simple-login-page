@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Log in form</title>
+    <!-- Css Link -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Fav Icon Link -->
+    <link rel="shortcut icon" href="../asset/FavIcon.jpg.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div class="user-form">
+            <div class="from-input-field">
+                <form action="./log In/index.html" class="form-field input-field">
+                    <h2 style="text-align: center;">Sign Up</h2>
+                    <label class="label-input" for="firstname">Enter your first name:</label>
+                    <input type="text"  class="email-input" id="firstname" placeholder="Enter your first name:">
+                    <br>
+                    <label class="label-input" for="lastname">Enter your last name:</label>
+                    <input type="text"  class="email-input" id="lastname" placeholder="Enter your last name:">
+                    <br>
+                    <label class="label-input" for="email">Enter you are email:</label><br>
+                    <input type="email" placeholder="E-mail" id="email" class="email-input" required>
+                    <br>
+                    <label class="label-input" for="pass">Set strong password:</label><br>
+                    <input type="password" placeholder=Password" id="pass" class="email-input" required maxlength="8">
+                    <br>
+                    <div class="others-info">
+                        <input type="date" class="date-birth" required>
+                        <div class="gender-info">
+                            <input type="radio" id="male" name="gender" required>
+                            <label for="male">Male</label>
+                            <input type="radio" id="female" name="gender" required>
+                            <label for="female">Fe-male</label>
+                        </div>
+                    </div>
+                    <div class="log-in-field">
+                        <a href="../index.html">Already have account?</a>
+                        <div>
+                            <label for="submit"></label>
+                            <input type="submit" id="submit" value="Log in" required>
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <!-- JS file -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
