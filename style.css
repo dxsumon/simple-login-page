@@ -14,7 +14,7 @@
     background-color: rgba(182, 182, 182, 0.24);
     color: black;
     margin: 10px 0;
-    border: none;
+    border: 2px solid rgba(245, 245, 245, 0.801);
 }
 .email-input input::placeholder{
     color: black;
@@ -34,14 +34,16 @@
 #submit {
     padding: 12px 40px;
     border-radius: 50px;
-    background-color: rgba(182, 182, 182, 0.24);
+    background-color: #BA586F;
     margin-top: 10px;
     margin-left: 20px;
     cursor: pointer;
     border: none;
     color: white;
 }
-
+::placeholder{
+    color: white;
+}
 .remember {
     font-size: 16px;
     color: white;
@@ -49,7 +51,7 @@
 
 .form-field {
     width: 100%;
-    border: 1px solid gray;
+    border: 1px solid whitesmoke;
     /* box-shadow: 0px 5px 20px 5px; */
     padding: 20px;
     border-radius: 12px;
@@ -93,4 +95,8 @@
 .account-create a{
     color: antiquewhite;
     margin-left: 10px;
+    font-size: 16px;
+}
+.account-create p{
+    font-size: 16px;
 }
